@@ -102,7 +102,7 @@
 
         function sendDataToScript(demoDate, email) {
             var xhr = new XMLHttpRequest();
-            var url = 'https://script.google.com/macros/s/AKfycbyTRc42Mpws1PkC3JTIDWaPww8BSIUIdzzXrwSkPp8dCdUu3BcfCV9vwJTdtMmXaHor/exec';
+            var url = 'https://script.google.com/macros/s/AKfycby3y3WqM2pUHN6Zvukv4Ur6VztUuJ94Vl0RwY9vf7WGfXXwDGlUZaVz0_wjSPvBMR1s/exec';
             var params = 'demoDate=' + encodeURIComponent(demoDate) + '&email=' + encodeURIComponent(email);
             xhr.open('POST', url, true);
             xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
